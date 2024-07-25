@@ -17,7 +17,7 @@ public class SplitFunction {
 
 		String s1 = "I am Mahesh";
 
-		// I ma hseham
+		// Approach 1: I ma hseham
 
 		int lenn = s1.length();
 		System.out.println(lenn);
@@ -27,6 +27,8 @@ public class SplitFunction {
 		}
 
 		System.out.println("-----");
+		
+		//Approach 2: 
 
 		String[] strSplit = s1.split(" ");
 
